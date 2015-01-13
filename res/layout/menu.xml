@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CCC">
+    <EditText 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:layout_marginTop="6dp" 
+        android:hint="ex: www.yahoo.com" 
+        android:id="@+id/site1">
+    </EditText>
+    <EditText android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:hint="ex: my.ucsc.edu" 
+        android:id="@+id/site2">
+        
+    </EditText>
+    <EditText android:layout_height="wrap_content"
+         android:layout_width="fill_parent" 
+         android:hint="ex: www.facebook.com"
+           android:id="@+id/site3">
+        
+    </EditText>
+    <Button android:id="@+id/button1"
+         android:layout_height="wrap_content"
+         android:text="Save"
+         android:layout_width="fill_parent" 
+         android:onClick="save">
+        
+    </Button>
+    <Button 
+        android:id="@+id/button2" 
+        android:layout_height="wrap_content" 
+        android:text="Reset" 
+        android:layout_width="fill_parent" 
+        android:onClick="reset">
+        
+    </Button>
+</LinearLayout>
